@@ -6,9 +6,9 @@ const About = () => {
     <>
     <Header/>
     
-    <div className='flex justify-center m-10 text-4xl'><h1>About Us </h1></div>
+    <div className='flex justify-center m-10 text-4xl bg-[url("/images.jpg")] bg-cover' ><h1>About Us </h1></div>
 
-      <div className=' m-20 gap-10 text-m'>
+      <div className=' m-20 gap-10 text-m bg-[url("/images.jpg")] bg-cover bg-center p-10 rounded-lg shadow-lg '>
         <p className=''>Creating a recipes website is an exciting opportunity to bring food lovers together and provide them with a vast collection of delicious dishes. A well-designed recipe website should have an intuitive layout, easy navigation, and a search feature that allows users to find recipes quickly. Categories such as breakfast, lunch, dinner, desserts, and beverages help users browse based on their preferences. Additionally, including trending and newly added recipes on the homepage keeps the audience engaged and encourages return visits.</p>
 
         <p> The homepage should feature trending and newly added recipes to keep the audience engaged. High-quality images and detailed descriptions can make the website visually appealing and informative. Each recipe page should include a list of ingredients, step-by-step cooking instructions, estimated preparation time, and serving sizes. Additionally, providing nutritional information can help health-conscious users make informed choices.</p>
